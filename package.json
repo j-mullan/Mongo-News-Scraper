@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "News scraping app with MongoDB, Mongoose, Express, Handlebars, and Cheerio",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "mongoose": "^5.2.4"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
